@@ -1,0 +1,107 @@
+{
+  "users": [
+    {
+      "id": "usr-cornelia",
+      "name": "Dr. Cornelia Walters-Jones",
+      "email": "cornelia@example.com",
+      "role": "owner",
+      "created_at": "2026-06-24T10:00:00.000Z"
+    }
+  ],
+  "companies": [
+    {
+      "id": "cmp-blue-mountain",
+      "name": "Blue Mountain Eco Ventures",
+      "website": "https://example.com",
+      "sector": "Sustainable tourism",
+      "country": "Jamaica",
+      "description": "A tourism operator exploring community-based experiences and regional partnerships.",
+      "status": "prospect",
+      "created_at": "2026-06-24T10:05:00.000Z"
+    },
+    {
+      "id": "cmp-carib-export",
+      "name": "CaribExport Growth Council",
+      "website": "https://example.org",
+      "sector": "International trade",
+      "country": "Barbados",
+      "description": "A trade development group supporting export readiness and Caribbean market expansion.",
+      "status": "qualified",
+      "created_at": "2026-06-24T10:10:00.000Z"
+    }
+  ],
+  "contacts": [
+    {
+      "id": "ctc-amelia",
+      "company_id": "cmp-blue-mountain",
+      "first_name": "Amelia",
+      "last_name": "Grant",
+      "title": "Managing Director",
+      "email": "amelia@example.com",
+      "phone": "",
+      "linkedin_url": "",
+      "created_at": "2026-06-24T10:12:00.000Z"
+    }
+  ],
+  "opportunities": [
+    {
+      "id": "opp-eco-strategy",
+      "company_id": "cmp-blue-mountain",
+      "title": "Community Tourism Growth Strategy",
+      "stage": "Research Complete",
+      "value": 28500,
+      "probability": 45,
+      "source": "Referral",
+      "close_date": "2026-08-15",
+      "ai_score": 88,
+      "recommended_service": "Community tourism",
+      "next_action": "Send personalized outreach and ask for a 25-minute discovery conversation focused on community tourism.",
+      "created_at": "2026-06-24T10:15:00.000Z"
+    },
+    {
+      "id": "opp-export-programme",
+      "company_id": "cmp-carib-export",
+      "title": "Export Readiness Programme Design",
+      "stage": "Follow-up Due",
+      "value": 42000,
+      "probability": 55,
+      "source": "Conference",
+      "close_date": "2026-09-05",
+      "ai_score": 76,
+      "recommended_service": "Export development",
+      "next_action": "Follow up with an implementation lens and invite a 25-minute discovery call.",
+      "created_at": "2026-06-24T10:18:00.000Z"
+    }
+  ],
+  "proposals": [],
+  "tasks": [
+    {
+      "id": "tsk-follow-up-export",
+      "opportunity_id": "opp-export-programme",
+      "title": "Send value-based follow-up to CaribExport Growth Council",
+      "due_date": "2026-06-25",
+      "status": "open",
+      "created_at": "2026-06-24T10:20:00.000Z"
+    }
+  ],
+  "interaction_notes": [
+    {
+      "id": "note-eco-1",
+      "opportunity_id": "opp-eco-strategy",
+      "contact_id": "ctc-amelia",
+      "note": "Initial research suggests interest in sustainable visitor experiences, community inclusion, and partnership structure.",
+      "created_at": "2026-06-24T10:22:00.000Z"
+    }
+  ],
+  "knowledge_documents": [
+    {
+      "id": "kb-profile",
+      "title": "LeadHer AI Default Profile",
+      "file_url": "",
+      "document_type": "Company profile",
+      "extracted_text": "Dr. Cornelia Walters-Jones focuses on consulting, project management, sustainability, tourism development, international trade, Caribbean and Latin American market expansion, executive leadership, and organizational transformation.",
+      "embedding_id": "",
+      "created_at": "2026-06-24T10:24:00.000Z"
+    }
+  ]
+}
