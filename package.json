@@ -1,0 +1,19 @@
+{
+  "name": "manageher-mvp",
+  "version": "0.1.0",
+  "private": true,
+  "description": "ManageHer MVP for AI-powered sales development management.",
+  "type": "module",
+  "scripts": {
+    "db:setup": "node scripts/setup-postgres.mjs",
+    "hash-password": "node scripts/hash-password.mjs",
+    "dev": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "pg": "^8.16.3"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
