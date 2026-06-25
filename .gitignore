@@ -1,0 +1,7 @@
+.git/
+.manageher-git/
+.env
+.env.local
+node_modules/
+.pnpm-store/
+data/*.backup.json
